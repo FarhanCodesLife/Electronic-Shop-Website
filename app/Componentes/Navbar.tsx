@@ -18,7 +18,7 @@ const Navbar = () => {
             <a href="">Contect</a>
         </div>
 
-        <div className='flex w-80 md- bg-yellow-300 justify-between gap-3'>
+        <div className='flex w-60 md:w-80 bg-yellow-300 justify-between gap-3'>
         <div>
             <h2>Call Now</h2>
         </div>
