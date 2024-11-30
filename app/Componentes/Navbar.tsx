@@ -5,54 +5,39 @@ import logo from '../assets/logo__1_-removebg-preview.png'
 const Navbar = () => {
   return (
     <>
-    
-    <div className='flex w-full border-b-2   justify-between flex-wrap'>
-        
-        
-        <div className='flex  w-full lg:w-72 md:justify-around bg-cover '>
-            <Image width={200} height={200} src={logo} className=' m-2' alt='ummat'/>
-            {/* <h2 className='text-xl'>Ummat Electronics</h2> */}
-            <div className='lg:hidden  ' >Menu</div>
+      <div className='flex w-full border-b-2 justify-between flex-wrap shadow-sm'>
+        {/* Logo and Mobile Menu Section */}
+        <div className='flex w-full lg:w-72 justify-between items-center px-4'>
+          <Image width={160} height={160} src={logo} className='py-2' alt='ummat'/>
+          <button className='lg:hidden p-2 hover:bg-gray-100 rounded-md'>
+            <span className='text-gray-600'>Menu</span>
+          </button>
         </div>
 
-
-        <div className='gap-10 m-auto text-xl  lg:flex w-80 flex-row  justify-between items-center hidden '>
-            <a href="" className=' hover:underline'>Home</a>
-            <a href="" className=''>About</a>
-            <a href="" className=''>Blog</a>
-            <a href="" className=''>Contact</a>
+        {/* Navigation Links */}
+        <div className='hidden lg:flex gap-8 m-auto text-lg font-medium'>
+          <a href="/" className='hover:text-orange-500 transition-colors'>Home</a>
+          <a href="/about" className='hover:text-orange-500 transition-colors'>About</a>
+          <a href="/blog" className='hover:text-orange-500 transition-colors'>Blog</a>
+          <a href="/contact" className='hover:text-orange-500 transition-colors'>Contact</a>
         </div>
 
-        {/* <div className='gap-4 bg-orange-300 flex  justify-center items-center  '>
-            <a href="" className='mb-2'>Home</a>
-            <a href="" className='mb-2'>About</a>
-            <a href="" className='mb-2'>Blog</a>
-            <a href="" className='mb-2'>Contact</a>
-        </div> */}
-
-
-
-
-        <div className='flex p-4 sm:w-96 w-full bg--300 justify-between items-center '>
-            <div className='text-center md:text-left'>
-                <h2>Call Now </h2>
-                <h2>+92 344 259 8379</h2>
-            </div>
-            <div className='text-center md:text-left'>
-                Add Cart
-            </div>
-            <div className='text-center md:text-left'>
-                <button className='text-center md:text-left'>Log in <br />
-                    Register</button>
-            </div>
+        {/* Contact, Cart and Auth Section */}
+        <div className='flex p-4 w-full lg:w-auto justify-between items-center space-x-6'>
+          <div className='hidden md:block'>
+            <p className='text-gray-500 text-sm'>Call Now</p>
+            <p className='font-medium'>+92 344 259 8379</p>
+          </div>
+          
+          <button className='flex items-center hover:text-orange-500 transition-colors'>
+            <span>Cart (0)</span>
+          </button>
+          
+          <button className='hidden md:block hover:text-orange-500 transition-colors'>
+            <span>Login / Register</span>
+          </button>
         </div>
-
-
-    </div>
-    <div>
-
-
-    </div>
+      </div>
     </>
   )
 }
