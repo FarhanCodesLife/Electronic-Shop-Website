@@ -26,7 +26,7 @@ const Page = () => {
   // Start the auto-scroll interval
   const startAutoScroll = () => {
     const id = setInterval(goToNext, 5000); // Change slide every 3 seconds
-    setIntervalId(id); // Store the interval ID to clear it later
+    // setIntervalId(id); // Store the interval ID to clear it later
   };
 
   // Stop the auto-scroll interval
