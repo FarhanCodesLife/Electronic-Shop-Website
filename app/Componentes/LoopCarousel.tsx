@@ -2,6 +2,8 @@
 
 import React, { useEffect } from "react";
 import Splide from "@splidejs/splide";
+import "@splidejs/splide/css"; // Default Splide CSS
+
 import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 
 import "splide/dist/css/splide.min.css"; // Import Splide's CSS
