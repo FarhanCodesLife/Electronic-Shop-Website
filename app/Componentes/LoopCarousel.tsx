@@ -20,7 +20,7 @@ const LoopSplideCarousel: React.FC = () => {
         speed: 1,
       },
       pagination: false, // Optional: remove pagination dots
-      arrows: true,      // Optional: display navigation arrows
+      arrows: false,      // Optional: display navigation arrows
     });
 
     // Mount Splide with the AutoScroll extension
