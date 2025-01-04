@@ -4,6 +4,7 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import logo from '../assets/logo__1_-removebg-preview.png';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import Link from 'next/link';
 
 
 const Navbar = () => {
@@ -38,7 +39,8 @@ const Navbar = () => {
           <a href="/" className='hover:text-orange-500 transition-colors'>Home</a>
           <a href="/about" className='hover:text-orange-500 transition-colors'>About</a>
           <a href="/blog" className='hover:text-orange-500 transition-colors'>Blog</a>
-          <a href="/contact" className='hover:text-orange-500 transition-colors'>Contact</a>
+          <Link href="/Contect"><h1>dbj</h1> more </Link>
+          <a href="/Contect" className='hover:text-orange-500 transition-colors'>Contact</a>
         </div>
 
         {/* Contact, Cart, and Auth Section */}
