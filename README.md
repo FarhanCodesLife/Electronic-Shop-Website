@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# eCommerce Website Template 🚀
 
-## Getting Started
+This repository contains an eCommerce website design created using **Figma**. The design is focused on modern UI/UX principles and includes an interior landing page and other essential components for an online store.
 
-First, run the development server:
+## 📋 Features
+- Clean and modern design.
+- Fully responsive layout (if implemented in code).
+- Components for product listings, categories, and cart functionality.
+- Focused on interior and furniture-based eCommerce.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📁 Figma Design
+The design is available in Figma. Click here to view the [Figma file](https://www.figma.com/design/SoVNGqWVjBivIpMUtfGedU/eCommerce-Website-%7C-Web-Page-Design-%7C-UI-KIT-%7C-Interior-Landing-Page-(Community)-(Copy)?node-id=117-336&t=dbq44ZPfQgET8dOL-0).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+If you're working with just the design, use the Figma link to view or modify the template.  
+If you've implemented this in code, navigate to the appropriate folder structure.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack (Planned for Implementation)
+- **Frontend**: Next.js for dynamic content
+- **CSS Framework**: TailwindCSS for responsive and utility-first design.
+- **UI Library**: ShadCN for custom, reusable UI components.
+- Replace product images with your own.
+- Customize colors and fonts using TailwindCSS configuration.
+- Add or remove components as necessary (like adding a search bar, reviews section, etc.)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

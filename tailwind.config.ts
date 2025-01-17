@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 
-const config: Config = {
+export default {
     darkMode: ["class"],
     content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,7 +8,15 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+	
   	extend: {
+		// screens: {
+		// 	'sm': '100px',
+		// 	'md': '768px',
+		// 	'lg': '1024px',
+		// 	'xl': '1280px',
+		// 	'2xl': '1536px',
+		// },
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
@@ -57,7 +65,7 @@ const config: Config = {
   			sm: 'calc(var(--radius) - 4px)'
   		}
   	}
+	
   },
   plugins: [require("tailwindcss-animate")],
-};
-export default config;
+} satisfies Config;
